@@ -1,0 +1,269 @@
+html {
+    width: 100%;
+}
+
+body {
+    background: url('source/21.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    color: white;
+    font-size: 3vmin;
+}
+
+/* NavBar CSS */
+.navbar-brand {
+    font-weight: bold;
+    color: white !important;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.navbar-toggler {
+    background-color: #00000080;
+}
+
+.navbar-nav a{
+    font-weight: lighter;
+}
+
+/* Header CSS */
+.jumbotron {
+    padding-bottom: 2em;
+    padding-top: 2em;
+    padding-left: 1em;
+    margin: 0;
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    font-size: 6vw;    
+    font-weight: bold;
+    color: white;
+    font-family: 'Raleway';
+}
+
+.jumbotron p {
+    font-size: 2.5vmin;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 1;
+}
+
+.jumbotron a {
+    color: white;
+    font-size: 2.5vmin;
+    font-weight: lighter;
+}
+
+.jumbotron a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    background-color: #231f1c;
+    border-color: #231f1c;
+}
+
+/* Content CSS */
+.content .midh3 {
+    margin-top: 1rem;
+}
+
+.content h3 {
+    font-size: 3vmax;
+    font-family: 'Raleway';
+    font-weight: normal;
+    color: white;
+}
+
+.content {
+    background-color:#0000006e;
+    padding-bottom: 3em;
+    padding-top: 1em;
+}
+
+.content .row {
+    padding-top: 3vh;
+}
+
+.content a {
+    font-size: 3vmin;
+    font-weight: bold;
+}
+
+.content h5 {
+    font-size: 1.9vmax;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: black;
+}
+
+.content p {
+    font-size: 3vmin;;
+    font-weight: 500;
+    color: white;
+    font-family: 'Raleway';
+}
+
+.content .card-body {
+    padding: .75rem;
+}
+
+.content .game-theory-card {
+    text-align: center;
+}
+
+.content .bg-secondary {
+    background-color: #f9f9fb !important;
+}
+
+.phone .card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+
+/* Table */
+.table {
+    margin-top: 1rem;
+}
+
+.tabletext {
+    margin-bottom: 2rem;
+}
+
+/* List */
+.list-group-item-light {
+    color: black;
+}
+
+.list-group-item-info {
+    background-color: #68686854;
+    color: #ffffff;
+}
+
+.list-group-item-danger {
+    background-color: #f5a95e57;
+    color: #ffffff;
+}
+
+.list-group {
+    margin-bottom: 1.5em;
+}
+
+/* Caption */
+
+/* Content News */
+.content-news {
+    background: url('source/22.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgba(48, 33, 33, 0.79);
+    font-family: 'Raleway';
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.content-news h1 {
+    font-weight: bold;
+    font-size: 8vw; 
+}
+
+.content-news p {
+    font-family: 'Raleway';
+    font-size: 4vmin;
+    font-weight: bold;
+}
+
+.content-news a {
+    font-size: .8em;
+    color: white;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    width: 100vw;
+    background-color: #6a6a6a;
+}
+
+.footer p {
+    margin-bottom: 0;
+    
+}
+
+
+/* Media Queries */
+
+/* Extra Large devices (landscape tablets, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+.jumbotron {
+    height: 50vh;
+    padding-bottom: 0;
+    padding-top: 5.5em;
+}
+
+.jumbotron p {
+    font-size: 3vmin;
+}
+
+.content .row{
+    padding-top: 3vh;
+}
+
+.content h5 {
+    font-size: 2vmax;
+}
+
+.content h3 {
+    font-size: 3.5vmin;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .content h5 {
+        font-size: 3vmax;
+    }
+
+    .content .card-body {
+        padding: 2.5rem;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .content h5 {
+        font-size: 3vmax;
+    }
+
+    h1 {
+        font-size: 3vmax;
+    }
+
+    .content {
+        padding: 3rem 5rem;
+    }
+
+    .jumbotron p {
+        font-size: 3vmin;
+    }
+    
+    .phone .col-6 {
+        display: none;
+    }
+
+    .content-news {
+        padding-left: 20vw;
+        padding-right: 20vw;
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
+}
