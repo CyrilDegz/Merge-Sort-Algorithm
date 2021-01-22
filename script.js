@@ -30,9 +30,9 @@ function merge(left, right) {
 }
 
 function mergeSort(array) {
-    let half = array.length / 2;
+    let half = Math.floor(array.length / 2);
 
-    if(array.length < 2)
+    if(array.length <= 1)
         return array;
     
     let left = array.splice(0, half);
@@ -44,7 +44,7 @@ let array = new Array();
 let nElem = window.prompt("Input the number of elements:");
 
 for(let i = 0; i < nElem; i++)
-    array[i] = window.prompt("[" + (i + 1) + "] input number");
+    array[i] = parseInt(window.prompt("[" + (i + 1) + "] input number"));
 
 // counters
 var tableCtr = 0;
